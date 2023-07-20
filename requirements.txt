@@ -1,0 +1,2 @@
+torch==2.0.1
+auto-gptq==0.3.0
