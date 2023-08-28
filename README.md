@@ -26,7 +26,7 @@ from auto_gptq import AutoGPTQForCausalLM
 from utils.prompter import Prompter
 
 MODEL = "j5ng/kullm-12.8b-GPTQ-8bit"
-model = AutoGPTQForCausalLM.from_quantized(MODEL, device="cuda:1", use_triton=False)
+model = AutoGPTQForCausalLM.from_quantized(MODEL, device="cuda:0", use_triton=False)
 
 pipe = pipeline('text-generation', model=model,tokenizer=MODEL)
 
