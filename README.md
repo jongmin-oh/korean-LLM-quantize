@@ -14,6 +14,10 @@ python quant_with_LLM.py --pretrained_model_dir nlpai-lab/kullm-polyglot-12.8b-v
 ```
 
 ### How to use GPTQ model
+
+- 급하신분들은 밑에 예제코드 바로 실행하시면 바로 가능합니다.
+- 2023-08-23일 이후부터는 huggingFace에서 GPTQ를 공식지원하게되었습니다.
+  
 ```python
 import torch
 from transformers import pipeline
