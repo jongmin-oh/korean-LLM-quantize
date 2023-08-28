@@ -51,3 +51,10 @@ instruction = """
 result = infer(instruction=instruction, input_text="손흥민의 애칭은 뭐야?")
 print(result) # 손흥민의 애칭은 "쏘니"입니다.
 ```
+
+### Reference
+```
+https://huggingface.co/EleutherAI/polyglot-ko-12.8b
+https://huggingface.co/nlpai-lab/kullm-polyglot-12.8b-v2
+https://github.com/IST-DASLab/gptq
+```
