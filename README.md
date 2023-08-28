@@ -54,7 +54,7 @@ print(result) # 손흥민의 애칭은 "쏘니"입니다.
 
 ### Reference
 
-[EleutherAI/polyglot](https://huggingface.co/EleutherAI/polyglot-ko-12.8b)
-[고려대학교/kullm](https://huggingface.co/nlpai-lab/kullm-polyglot-12.8b-v2)
-[GPTQ](https://github.com/IST-DASLab/gptq)
+- [EleutherAI/polyglot](https://huggingface.co/EleutherAI/polyglot-ko-12.8b)
+- [고려대학교/kullm](https://huggingface.co/nlpai-lab/kullm-polyglot-12.8b-v2)
+- [GPTQ](https://github.com/IST-DASLab/gptq)
 
