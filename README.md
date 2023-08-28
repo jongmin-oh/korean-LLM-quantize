@@ -15,11 +15,11 @@ python quant_with_LLM.py --pretrained_model_dir nlpai-lab/kullm-polyglot-12.8b-v
 
 ### How to use GPTQ model
 
+#### Requirements
 ```
 mkdir ./templates && mkdir ./utils && wget -P ./templates https://raw.githubusercontent.com/jongmin-oh/korean-LLM-quantize/main/templates/kullm.json && wget -P ./utils https://raw.githubusercontent.com/jongmin-oh/korean-LLM-quantize/main/utils/prompter.py
+pip install torch==2.0.1 auto-gptq==0.4.2
 ```
-
-- 급하신분들은 밑에 예제코드 실행하시면 바로 테스트 가능합니다. (GPU memory 19GB 점유)
 - 2023-08-23일 이후부터는 huggingFace에서 GPTQ를 공식지원하게되었습니다.
   
 ```python
